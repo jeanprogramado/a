@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendário de Agendamento</title>
+</head>
+<body>
+    <div style="text-align:center">
+        <h1>Calendário de Agendamento</h1>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="https://i0.wp.com/www.radioamador.com/wp-content/uploads/2017/07/inmetro.png?ssl=1" width="300" height="300" alt="Logo">
+            <label for="date">Selecione uma data:</label>
+            <input type="date" id="date">
+            <button onclick="agendar()">Agendar para 45 dias</button>
+        </div>
+    </div>
+    <div id="agendamento"></div>
+    <script src="script.js"></script>
+</body>
+</html>
